@@ -1,6 +1,3 @@
-/* 
-The purpose of these functions is to perform run length encoding & decoding on a string, where a run of the same character are replaced by a single copy followed by the number of repetitions; e.g. aaabbcdda --> a3b2cd2a
-*/
 var compress = function(uncompressed) {
     var compressed = "";
     var curr = uncompressed[0];
@@ -61,5 +58,3 @@ if (decompressed != 'aaabbcdda') {
 
     Console.Log('compression succeeded')
 }
-
-*/
